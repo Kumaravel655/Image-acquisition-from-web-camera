@@ -144,6 +144,7 @@ cv2.destroyAllWindows()
 
 ### iv) Rotate and display the video
 
+![WhatsApp Image 2022-04-08 at 3 09 35 PM](https://user-images.githubusercontent.com/75235334/162411456-03d53e75-612a-4463-9a21-df8c78efb966.jpeg)
 
 
 

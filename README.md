@@ -35,10 +35,8 @@ End the program and close the output video windows by pressing 'q'.
 
 import cv2
 videoCaptureObject = cv2.VideoCapture(0)
-while(True):
-    ret,frame = videoCaptureObject.read()
-    cv2.imshow("apple.jpg",frame)
-    result = False
+ret,frame = videoCaptureObject.read()
+cv2.imwrite("apple.jpg",frame)
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 
@@ -106,14 +104,6 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
 
 
 
